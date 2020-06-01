@@ -1,0 +1,15 @@
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\bin\Debug\TareasFinal.exe.config
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\bin\Debug\TareasFinal.exe
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\bin\Debug\TareasFinal.pdb
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\bin\Debug\TareasFinal.xml
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.vbprojAssemblyReference.cache
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.FacturaSencilla.resources
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Resources.resources
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.vbproj.GenerateResource.cache
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.vbproj.CoreCompileInputs.cache
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.exe
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.xml
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.pdb
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.UsoCheckBox.resources
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Calculadora.resources
+C:\Users\Elmer Chandia\source\repos\TareasFinal\TareasFinal\obj\Debug\TareasFinal.EjemploCicloFor.resources
