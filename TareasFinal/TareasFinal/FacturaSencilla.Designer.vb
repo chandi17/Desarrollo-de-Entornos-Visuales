@@ -64,9 +64,10 @@ Partial Class FacturaSencilla
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 36)
+        Me.Label1.Location = New System.Drawing.Point(4, 29)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
+        Me.Label1.Size = New System.Drawing.Size(45, 15)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Label1"
         '
@@ -76,9 +77,11 @@ Partial Class FacturaSencilla
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(47, 51)
+        Me.GroupBox1.Location = New System.Drawing.Point(35, 41)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(280, 229)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(210, 186)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
@@ -89,50 +92,57 @@ Partial Class FacturaSencilla
         Me.GroupBox3.Controls.Add(Me.Label5)
         Me.GroupBox3.Controls.Add(Me.Label6)
         Me.GroupBox3.Location = New System.Drawing.Point(0, 0)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(280, 229)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Size = New System.Drawing.Size(210, 186)
         Me.GroupBox3.TabIndex = 1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "GroupBox1"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(75, 81)
+        Me.TextBox3.Location = New System.Drawing.Point(56, 66)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(76, 20)
         Me.TextBox3.TabIndex = 1
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 86)
+        Me.Label5.Location = New System.Drawing.Point(4, 70)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(51, 17)
+        Me.Label5.Size = New System.Drawing.Size(45, 15)
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Label1"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(6, 36)
+        Me.Label6.Location = New System.Drawing.Point(4, 29)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(51, 17)
+        Me.Label6.Size = New System.Drawing.Size(45, 15)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Label1"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(75, 81)
+        Me.TextBox1.Location = New System.Drawing.Point(56, 66)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(76, 20)
         Me.TextBox1.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 86)
+        Me.Label2.Location = New System.Drawing.Point(4, 70)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 17)
+        Me.Label2.Size = New System.Drawing.Size(45, 15)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Label1"
         '
@@ -146,9 +156,11 @@ Partial Class FacturaSencilla
         Me.GroupBox2.Controls.Add(Me.txtPrecio)
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(47, 51)
+        Me.GroupBox2.Location = New System.Drawing.Point(35, 41)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(280, 241)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(210, 196)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Datos Requeridos"
@@ -156,9 +168,10 @@ Partial Class FacturaSencilla
         'chkISV
         '
         Me.chkISV.AutoSize = True
-        Me.chkISV.Location = New System.Drawing.Point(34, 178)
+        Me.chkISV.Location = New System.Drawing.Point(26, 145)
+        Me.chkISV.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkISV.Name = "chkISV"
-        Me.chkISV.Size = New System.Drawing.Size(98, 21)
+        Me.chkISV.Size = New System.Drawing.Size(87, 19)
         Me.chkISV.TabIndex = 3
         Me.chkISV.Text = "Aplicar ISV"
         Me.chkISV.UseVisualStyleBackColor = True
@@ -166,9 +179,10 @@ Partial Class FacturaSencilla
         'chkDescuento
         '
         Me.chkDescuento.AutoSize = True
-        Me.chkDescuento.Location = New System.Drawing.Point(34, 121)
+        Me.chkDescuento.Location = New System.Drawing.Point(26, 98)
+        Me.chkDescuento.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkDescuento.Name = "chkDescuento"
-        Me.chkDescuento.Size = New System.Drawing.Size(145, 21)
+        Me.chkDescuento.Size = New System.Drawing.Size(128, 19)
         Me.chkDescuento.TabIndex = 2
         Me.chkDescuento.Text = "Aplicar Descuento"
         Me.chkDescuento.UseVisualStyleBackColor = True
@@ -178,9 +192,10 @@ Partial Class FacturaSencilla
         Me.cmbDescuento.Enabled = False
         Me.cmbDescuento.FormattingEnabled = True
         Me.cmbDescuento.Items.AddRange(New Object() {"15% Tercera Edad", "10% Alumnos", "50% black Friday", "20% Transportista", "17% Discapacidad "})
-        Me.cmbDescuento.Location = New System.Drawing.Point(75, 148)
+        Me.cmbDescuento.Location = New System.Drawing.Point(56, 120)
+        Me.cmbDescuento.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbDescuento.Name = "cmbDescuento"
-        Me.cmbDescuento.Size = New System.Drawing.Size(121, 24)
+        Me.cmbDescuento.Size = New System.Drawing.Size(92, 21)
         Me.cmbDescuento.TabIndex = 2
         '
         'cmbISV
@@ -188,49 +203,55 @@ Partial Class FacturaSencilla
         Me.cmbISV.Enabled = False
         Me.cmbISV.FormattingEnabled = True
         Me.cmbISV.Items.AddRange(New Object() {"15% ", "17%"})
-        Me.cmbISV.Location = New System.Drawing.Point(75, 205)
+        Me.cmbISV.Location = New System.Drawing.Point(56, 167)
+        Me.cmbISV.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbISV.Name = "cmbISV"
-        Me.cmbISV.Size = New System.Drawing.Size(121, 24)
+        Me.cmbISV.Size = New System.Drawing.Size(92, 21)
         Me.cmbISV.TabIndex = 2
         '
         'txtCantidad
         '
-        Me.txtCantidad.Location = New System.Drawing.Point(90, 83)
+        Me.txtCantidad.Location = New System.Drawing.Point(68, 67)
+        Me.txtCantidad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCantidad.Name = "txtCantidad"
-        Me.txtCantidad.Size = New System.Drawing.Size(100, 22)
+        Me.txtCantidad.Size = New System.Drawing.Size(76, 20)
         Me.txtCantidad.TabIndex = 1
         '
         'txtPrecio
         '
-        Me.txtPrecio.Location = New System.Drawing.Point(90, 33)
+        Me.txtPrecio.Location = New System.Drawing.Point(68, 27)
+        Me.txtPrecio.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtPrecio.Name = "txtPrecio"
-        Me.txtPrecio.Size = New System.Drawing.Size(100, 22)
+        Me.txtPrecio.Size = New System.Drawing.Size(76, 20)
         Me.txtPrecio.TabIndex = 0
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 86)
+        Me.Label3.Location = New System.Drawing.Point(4, 70)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(68, 17)
+        Me.Label3.Size = New System.Drawing.Size(59, 15)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Cantidad:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 36)
+        Me.Label4.Location = New System.Drawing.Point(4, 29)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 17)
+        Me.Label4.Size = New System.Drawing.Size(67, 15)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "P. Unitario:"
         '
         'btnCalcular
         '
         Me.btnCalcular.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCalcular.Location = New System.Drawing.Point(376, 72)
+        Me.btnCalcular.Location = New System.Drawing.Point(282, 58)
+        Me.btnCalcular.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnCalcular.Name = "btnCalcular"
-        Me.btnCalcular.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcular.Size = New System.Drawing.Size(56, 27)
         Me.btnCalcular.TabIndex = 0
         Me.btnCalcular.Text = "Calcular"
         Me.ToolTip1.SetToolTip(Me.btnCalcular, "Realiza los calculos para la facturación")
@@ -240,9 +261,10 @@ Partial Class FacturaSencilla
         '
         Me.btnNuevo.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnNuevo.Enabled = False
-        Me.btnNuevo.Location = New System.Drawing.Point(376, 136)
+        Me.btnNuevo.Location = New System.Drawing.Point(282, 110)
+        Me.btnNuevo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnNuevo.Name = "btnNuevo"
-        Me.btnNuevo.Size = New System.Drawing.Size(75, 23)
+        Me.btnNuevo.Size = New System.Drawing.Size(56, 19)
         Me.btnNuevo.TabIndex = 1
         Me.btnNuevo.Text = "Nuevo"
         Me.ToolTip1.SetToolTip(Me.btnNuevo, "Inicializa los campos para una nueva Factura")
@@ -251,9 +273,10 @@ Partial Class FacturaSencilla
         'btnSalir
         '
         Me.btnSalir.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnSalir.Location = New System.Drawing.Point(376, 207)
+        Me.btnSalir.Location = New System.Drawing.Point(282, 168)
+        Me.btnSalir.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnSalir.Size = New System.Drawing.Size(56, 19)
         Me.btnSalir.TabIndex = 2
         Me.btnSalir.Text = "Salir"
         Me.ToolTip1.SetToolTip(Me.btnSalir, "Regresa al Menu Principal")
@@ -269,9 +292,11 @@ Partial Class FacturaSencilla
         Me.GroupBox4.Controls.Add(Me.txtISV)
         Me.GroupBox4.Controls.Add(Me.txtDescuento)
         Me.GroupBox4.Controls.Add(Me.txtSubtotal)
-        Me.GroupBox4.Location = New System.Drawing.Point(47, 298)
+        Me.GroupBox4.Location = New System.Drawing.Point(35, 242)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(280, 221)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox4.Size = New System.Drawing.Size(210, 180)
         Me.GroupBox4.TabIndex = 3
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Detalle Factura"
@@ -279,36 +304,40 @@ Partial Class FacturaSencilla
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(6, 154)
+        Me.Label10.Location = New System.Drawing.Point(4, 125)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(44, 17)
+        Me.Label10.Size = New System.Drawing.Size(37, 15)
         Me.Label10.TabIndex = 0
         Me.Label10.Text = "Total:"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(6, 125)
+        Me.Label9.Location = New System.Drawing.Point(4, 102)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(33, 17)
+        Me.Label9.Size = New System.Drawing.Size(28, 15)
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "ISV:"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(6, 101)
+        Me.Label8.Location = New System.Drawing.Point(4, 82)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(80, 17)
+        Me.Label8.Size = New System.Drawing.Size(69, 15)
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "Descuento:"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(6, 71)
+        Me.Label7.Location = New System.Drawing.Point(4, 58)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(64, 17)
+        Me.Label7.Size = New System.Drawing.Size(55, 15)
         Me.Label7.TabIndex = 0
         Me.Label7.Text = "Subtotal:"
         '
@@ -316,36 +345,40 @@ Partial Class FacturaSencilla
         '
         Me.txtTotal.BackColor = System.Drawing.Color.AliceBlue
         Me.txtTotal.Enabled = False
-        Me.txtTotal.Location = New System.Drawing.Point(88, 149)
+        Me.txtTotal.Location = New System.Drawing.Point(66, 121)
+        Me.txtTotal.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtTotal.Name = "txtTotal"
-        Me.txtTotal.Size = New System.Drawing.Size(100, 22)
+        Me.txtTotal.Size = New System.Drawing.Size(76, 20)
         Me.txtTotal.TabIndex = 1
         '
         'txtISV
         '
         Me.txtISV.BackColor = System.Drawing.Color.AliceBlue
         Me.txtISV.Enabled = False
-        Me.txtISV.Location = New System.Drawing.Point(88, 120)
+        Me.txtISV.Location = New System.Drawing.Point(66, 98)
+        Me.txtISV.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtISV.Name = "txtISV"
-        Me.txtISV.Size = New System.Drawing.Size(100, 22)
+        Me.txtISV.Size = New System.Drawing.Size(76, 20)
         Me.txtISV.TabIndex = 1
         '
         'txtDescuento
         '
         Me.txtDescuento.BackColor = System.Drawing.Color.AliceBlue
         Me.txtDescuento.Enabled = False
-        Me.txtDescuento.Location = New System.Drawing.Point(88, 92)
+        Me.txtDescuento.Location = New System.Drawing.Point(66, 75)
+        Me.txtDescuento.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtDescuento.Name = "txtDescuento"
-        Me.txtDescuento.Size = New System.Drawing.Size(100, 22)
+        Me.txtDescuento.Size = New System.Drawing.Size(76, 20)
         Me.txtDescuento.TabIndex = 1
         '
         'txtSubtotal
         '
         Me.txtSubtotal.BackColor = System.Drawing.Color.AliceBlue
         Me.txtSubtotal.Enabled = False
-        Me.txtSubtotal.Location = New System.Drawing.Point(88, 68)
+        Me.txtSubtotal.Location = New System.Drawing.Point(66, 55)
+        Me.txtSubtotal.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSubtotal.Name = "txtSubtotal"
-        Me.txtSubtotal.Size = New System.Drawing.Size(100, 22)
+        Me.txtSubtotal.Size = New System.Drawing.Size(76, 20)
         Me.txtSubtotal.TabIndex = 1
         '
         'errorValidacion
@@ -355,11 +388,11 @@ Partial Class FacturaSencilla
         'FacturaSencilla
         '
         Me.AcceptButton = Me.btnCalcular
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.CancelButton = Me.btnSalir
-        Me.ClientSize = New System.Drawing.Size(495, 543)
+        Me.ClientSize = New System.Drawing.Size(371, 441)
         Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.btnSalir)
@@ -367,6 +400,7 @@ Partial Class FacturaSencilla
         Me.Controls.Add(Me.btnCalcular)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "FacturaSencilla"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Factura Sencilla"

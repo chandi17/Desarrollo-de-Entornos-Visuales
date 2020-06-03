@@ -85,6 +85,12 @@
     <Compile Include="Factura.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="EntregaMascarilla.Designer.vb">
+      <DependentUpon>EntregaMascarilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EntregaMascarilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SumaDosNumeros.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Factura.resx">
       <DependentUpon>Factura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntregaMascarilla.resx">
+      <DependentUpon>EntregaMascarilla.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SumaDosNumeros.resx">
       <DependentUpon>SumaDosNumeros.vb</DependentUpon>
