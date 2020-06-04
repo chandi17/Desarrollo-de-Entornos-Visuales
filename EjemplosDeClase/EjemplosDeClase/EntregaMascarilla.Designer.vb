@@ -26,13 +26,13 @@ Partial Class EntregaMascarilla
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btnSolicitar = New System.Windows.Forms.Button()
         Me.txtDepartamentos = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btnEntregar = New System.Windows.Forms.Button()
-        Me.txtStock = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.txtMunicipios = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtStock = New System.Windows.Forms.TextBox()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -42,9 +42,9 @@ Partial Class EntregaMascarilla
         'cmbDepartamento
         '
         Me.cmbDepartamento.FormattingEnabled = True
-        Me.cmbDepartamento.Location = New System.Drawing.Point(172, 35)
+        Me.cmbDepartamento.Location = New System.Drawing.Point(195, 33)
         Me.cmbDepartamento.Name = "cmbDepartamento"
-        Me.cmbDepartamento.Size = New System.Drawing.Size(79, 21)
+        Me.cmbDepartamento.Size = New System.Drawing.Size(79, 24)
         Me.cmbDepartamento.TabIndex = 0
         '
         'GroupBox1
@@ -63,35 +63,35 @@ Partial Class EntregaMascarilla
         '
         Me.btnSolicitar.Location = New System.Drawing.Point(75, 73)
         Me.btnSolicitar.Name = "btnSolicitar"
-        Me.btnSolicitar.Size = New System.Drawing.Size(75, 23)
+        Me.btnSolicitar.Size = New System.Drawing.Size(75, 27)
         Me.btnSolicitar.TabIndex = 3
         Me.btnSolicitar.Text = "Solicitar"
         Me.btnSolicitar.UseVisualStyleBackColor = True
         '
         'txtDepartamentos
         '
-        Me.txtDepartamentos.Location = New System.Drawing.Point(137, 30)
+        Me.txtDepartamentos.Location = New System.Drawing.Point(151, 30)
         Me.txtDepartamentos.Name = "txtDepartamentos"
-        Me.txtDepartamentos.Size = New System.Drawing.Size(100, 20)
+        Me.txtDepartamentos.Size = New System.Drawing.Size(100, 22)
         Me.txtDepartamentos.TabIndex = 2
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(8, 33)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(142, 17)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Cant. Departamentos"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(22, 35)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(144, 15)
+        Me.Label3.Size = New System.Drawing.Size(167, 17)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Cant. por Departamentos"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(8, 32)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(123, 15)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Cant. Departamentos"
         '
         'GroupBox2
         '
@@ -111,10 +111,27 @@ Partial Class EntregaMascarilla
         '
         Me.btnEntregar.Location = New System.Drawing.Point(126, 133)
         Me.btnEntregar.Name = "btnEntregar"
-        Me.btnEntregar.Size = New System.Drawing.Size(75, 23)
+        Me.btnEntregar.Size = New System.Drawing.Size(82, 28)
         Me.btnEntregar.TabIndex = 3
         Me.btnEntregar.Text = "Entregar"
         Me.btnEntregar.UseVisualStyleBackColor = True
+        '
+        'txtMunicipios
+        '
+        Me.txtMunicipios.Enabled = False
+        Me.txtMunicipios.Location = New System.Drawing.Point(172, 78)
+        Me.txtMunicipios.Name = "txtMunicipios"
+        Me.txtMunicipios.Size = New System.Drawing.Size(100, 22)
+        Me.txtMunicipios.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(22, 81)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(111, 17)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Cant. Municipios"
         '
         'txtStock
         '
@@ -124,29 +141,12 @@ Partial Class EntregaMascarilla
         Me.txtStock.Size = New System.Drawing.Size(100, 29)
         Me.txtStock.TabIndex = 2
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(22, 81)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 15)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Cant. Municipios"
-        '
-        'txtMunicipios
-        '
-        Me.txtMunicipios.Enabled = False
-        Me.txtMunicipios.Location = New System.Drawing.Point(172, 78)
-        Me.txtMunicipios.Name = "txtMunicipios"
-        Me.txtMunicipios.Size = New System.Drawing.Size(100, 20)
-        Me.txtMunicipios.TabIndex = 2
-        '
         'ToolStrip1
         '
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(655, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(673, 25)
         Me.ToolStrip1.TabIndex = 4
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -161,9 +161,8 @@ Partial Class EntregaMascarilla
         '
         'EntregaMascarilla
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(655, 367)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.ClientSize = New System.Drawing.Size(673, 376)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.txtStock)
@@ -172,7 +171,7 @@ Partial Class EntregaMascarilla
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "EntregaMascarilla"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "SINAGER"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

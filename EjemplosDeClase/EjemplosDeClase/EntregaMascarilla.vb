@@ -5,7 +5,7 @@
         departamentos = Val(txtDepartamentos.Text)
 
         If departamentos > 18 Or departamentos < 0 Then
-            MessageBox.Show("El numero de departamentos no puede ser mayor que 18 ni menor que 0 ", "Departamentos", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("El numero de departamentos no puede ser mayor que 0 ni menor que 18 ", "Departamentos", MessageBoxButtons.OK, MessageBoxIcon.Error)
             txtDepartamentos.Clear()
             txtDepartamentos.Focus()
             Exit Sub
@@ -15,9 +15,14 @@
             Do
                 Try
                     mascarillas = InputBox("Ingrese la cantidad de mascarillas(Entre 1 - 10,000)" & i, ", Ingresar")
+                    If mascarillas = vbAbort Then
+                        Exit Sub
+                    End If
                 Catch ex As Exception
                     MsgBox(ex.Message)
+
                     mascarillas = -1
+
                 End Try
 
             Loop While (mascarillas < 0 Or mascarillas > 10000)
@@ -142,7 +147,6 @@
         Next
         Return stock
     End Function
-
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
         Dim salir As String
 
