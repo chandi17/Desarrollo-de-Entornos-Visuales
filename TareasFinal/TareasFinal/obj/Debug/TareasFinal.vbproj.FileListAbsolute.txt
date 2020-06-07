@@ -31,3 +31,4 @@ C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFi
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.exe
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.xml
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.pdb
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.vbprojAssemblyReference.cache

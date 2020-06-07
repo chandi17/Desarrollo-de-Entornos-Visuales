@@ -19,8 +19,10 @@
 
         If rPassword = "True" And rUsuario = "True" Then
             Intentos = -1
-            UsoCheckBox.Show()
+            PrincipalCONAHSA.Show()
             Me.Hide()
+            txtPassword.Clear()
+            txtUsuario.Clear()
             Exit Sub
 
         End If
