@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analisis y deseño.Designer.vb">
+      <DependentUpon>Analisis y deseño.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis y deseño.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cerro.Designer.vb">
+      <DependentUpon>Cerro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cerro.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CONAHSA\AgregarCliente.Designer.vb">
       <DependentUpon>AgregarCliente.vb</DependentUpon>
     </Compile>
@@ -103,11 +115,29 @@
     <Compile Include="EjemploCicloFor.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Ejercicio3.Designer.vb">
+      <DependentUpon>Ejercicio3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio4.Designer.vb">
+      <DependentUpon>Ejercicio4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FacturaSencilla.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FacturaSencilla.Designer.vb">
       <DependentUpon>FacturaSencilla.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -132,6 +162,12 @@
     <Compile Include="CONAHSA\PrincipalCONAHSA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Sar.Designer.vb">
+      <DependentUpon>Sar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="UsoCheckBox.Designer.vb">
       <DependentUpon>UsoCheckBox.vb</DependentUpon>
     </Compile>
@@ -141,6 +177,12 @@
     <Compile Include="Variables.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Analisis y deseño.resx">
+      <DependentUpon>Analisis y deseño.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cerro.resx">
+      <DependentUpon>Cerro.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CONAHSA\AgregarCliente.resx">
       <DependentUpon>AgregarCliente.vb</DependentUpon>
     </EmbeddedResource>
@@ -156,8 +198,17 @@
     <EmbeddedResource Include="EjemploCicloFor.resx">
       <DependentUpon>EjemploCicloFor.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio3.resx">
+      <DependentUpon>Ejercicio3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio4.resx">
+      <DependentUpon>Ejercicio4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FacturaSencilla.resx">
       <DependentUpon>FacturaSencilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -167,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CONAHSA\PrincipalCONAHSA.resx">
       <DependentUpon>PrincipalCONAHSA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sar.resx">
+      <DependentUpon>Sar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsoCheckBox.resx">
       <DependentUpon>UsoCheckBox.vb</DependentUpon>
@@ -186,7 +240,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Media\" />
-    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planilla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planilla2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planilla3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

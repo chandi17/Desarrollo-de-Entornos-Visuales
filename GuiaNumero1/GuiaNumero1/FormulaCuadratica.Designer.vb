@@ -22,6 +22,7 @@ Partial Class FormulaCuadratica
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.btnCalcular = New System.Windows.Forms.Button()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
@@ -35,6 +36,9 @@ Partial Class FormulaCuadratica
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtX2 = New System.Windows.Forms.TextBox()
+        Me.ErrorProvider = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        CType(Me.ErrorProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnCalcular
@@ -146,6 +150,10 @@ Partial Class FormulaCuadratica
         Me.txtX2.Size = New System.Drawing.Size(100, 22)
         Me.txtX2.TabIndex = 3
         '
+        'ErrorProvider
+        '
+        Me.ErrorProvider.ContainerControl = Me
+        '
         'FormulaCuadratica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -166,6 +174,7 @@ Partial Class FormulaCuadratica
         Me.Controls.Add(Me.btnCalcular)
         Me.Name = "FormulaCuadratica"
         Me.Text = "FormulaCuadratica"
+        CType(Me.ErrorProvider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -184,4 +193,6 @@ Partial Class FormulaCuadratica
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents txtX2 As TextBox
+    Friend WithEvents ErrorProvider As ErrorProvider
+    Friend WithEvents ToolTip As ToolTip
 End Class

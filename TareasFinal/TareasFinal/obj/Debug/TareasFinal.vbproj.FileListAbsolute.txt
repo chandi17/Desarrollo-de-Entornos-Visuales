@@ -32,3 +32,6 @@ C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFi
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.xml
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.pdb
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.vbprojAssemblyReference.cache
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Analisis_y_deseño.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Cerro.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Sar.resources

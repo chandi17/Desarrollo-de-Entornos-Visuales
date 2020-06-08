@@ -80,6 +80,12 @@
       <DependentUpon>Calculador.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormulaCuadratica.Designer.vb">
       <DependentUpon>FormulaCuadratica.vb</DependentUpon>
     </Compile>
@@ -106,6 +112,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Calculador.resx">
       <DependentUpon>Calculador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormulaCuadratica.resx">
       <DependentUpon>FormulaCuadratica.vb</DependentUpon>
