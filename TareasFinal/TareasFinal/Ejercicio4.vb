@@ -38,10 +38,6 @@
 
     End Sub
 
-    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
-
-    End Sub
-
     Private Sub ingresodeNumeros_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         cmbNumeros.DropDownStyle = ComboBoxStyle.DropDownList
     End Sub
@@ -52,19 +48,11 @@
         ToolTip.ToolTipIcon = ToolTipIcon.Info
     End Sub
 
-    Private Sub btnSalir_MouseHover(sender As Object, e As EventArgs) Handles btnSalir.MouseHover
-        ToolTip.SetToolTip(btnSalir, "Abandona ingreso de Numeros")
-        ToolTip.ToolTipTitle = "Salir"
-        ToolTip.ToolTipIcon = ToolTipIcon.Info
-    End Sub
+    ' Private Sub btnSalir_MouseHover(sender As Object, e As EventArgs) Handles btnSalir.MouseHover
+    '  ToolTip.SetToolTip(btnSalir, "Abandona ingreso de Numeros")
+    '  ToolTip.ToolTipTitle = "Salir"
+    ' ToolTip.ToolTipIcon = ToolTipIcon.Info
+    'End Sub
 
-    Private Sub btnNuevo_MouseHover(sender As Object, e As EventArgs) Handles btnNuevo.MouseHover
-        ToolTip.SetToolTip(btnNuevo, "Realiza una nueva lista de numeros a ultilizar")
-        ToolTip.ToolTipTitle = "Nuevo"
-        ToolTip.ToolTipIcon = ToolTipIcon.Info
 
-        ToolTip.SetToolTip(cmbNumeros, "Muestra la lista de numeros a utilizar")
-        ToolTip.ToolTipTitle = "lista"
-        ToolTip.ToolTipIcon = ToolTipIcon.Info
-    End Sub
 End Class

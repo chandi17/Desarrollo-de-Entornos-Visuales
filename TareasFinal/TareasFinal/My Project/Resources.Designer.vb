@@ -63,6 +63,26 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property ch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property cheked() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cheked", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property planilla() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("planilla", resourceCulture)
@@ -96,6 +116,36 @@ Namespace My.Resources
         Friend ReadOnly Property planilla3() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("planilla3", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property sd() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("sd", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property vector_de_madera_del_transporte_del_camión_83703520() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("vector-de-madera-del-transporte-del-camión-83703520", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property wef() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wef", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

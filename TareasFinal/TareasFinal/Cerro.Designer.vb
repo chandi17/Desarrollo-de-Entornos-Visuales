@@ -38,7 +38,7 @@ Partial Class Cerro
         '
         Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold)
         Me.Button1.Image = Global.TareasFinal.My.Resources.Resources.planilla3
-        Me.Button1.Location = New System.Drawing.Point(134, 126)
+        Me.Button1.Location = New System.Drawing.Point(97, 126)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(202, 204)
         Me.Button1.TabIndex = 0
@@ -51,6 +51,7 @@ Partial Class Cerro
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Cerro"
         Me.Text = "Cerro"
         Me.ResumeLayout(False)

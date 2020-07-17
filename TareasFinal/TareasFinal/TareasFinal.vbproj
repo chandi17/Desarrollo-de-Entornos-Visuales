@@ -79,6 +79,12 @@
     <Compile Include="Analisis y deseño.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AnalisisDiseño2.Designer.vb">
+      <DependentUpon>AnalisisDiseño2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnalisisDiseño2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Cerro.Designer.vb">
       <DependentUpon>Cerro.vb</DependentUpon>
     </Compile>
@@ -162,6 +168,18 @@
     <Compile Include="CONAHSA\PrincipalCONAHSA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="OpcionesCerrp.Designer.vb">
+      <DependentUpon>OpcionesCerrp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionesCerrp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLanesManejo.Designer.vb">
+      <DependentUpon>PLanesManejo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PLanesManejo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Sar.Designer.vb">
       <DependentUpon>Sar.vb</DependentUpon>
     </Compile>
@@ -179,6 +197,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Analisis y deseño.resx">
       <DependentUpon>Analisis y deseño.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalisisDiseño2.resx">
+      <DependentUpon>AnalisisDiseño2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cerro.resx">
       <DependentUpon>Cerro.vb</DependentUpon>
@@ -219,6 +240,12 @@
     <EmbeddedResource Include="CONAHSA\PrincipalCONAHSA.resx">
       <DependentUpon>PrincipalCONAHSA.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OpcionesCerrp.resx">
+      <DependentUpon>OpcionesCerrp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLanesManejo.resx">
+      <DependentUpon>PLanesManejo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sar.resx">
       <DependentUpon>Sar.vb</DependentUpon>
     </EmbeddedResource>
@@ -252,6 +279,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\planilla3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-de-madera-del-transporte-del-camión-83703520.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheked.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

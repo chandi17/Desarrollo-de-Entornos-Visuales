@@ -37,6 +37,8 @@ Partial Class Analisis_y_deseño
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'ContextMenuStrip1
@@ -47,6 +49,7 @@ Partial Class Analisis_y_deseño
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.PapayaWhip
         Me.TextBox1.Location = New System.Drawing.Point(143, 143)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(173, 22)
@@ -54,6 +57,7 @@ Partial Class Analisis_y_deseño
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.PapayaWhip
         Me.TextBox2.Location = New System.Drawing.Point(143, 201)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(173, 22)
@@ -61,14 +65,16 @@ Partial Class Analisis_y_deseño
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(143, 305)
+        Me.TextBox3.BackColor = System.Drawing.Color.PapayaWhip
+        Me.TextBox3.Location = New System.Drawing.Point(143, 363)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(173, 22)
         Me.TextBox3.TabIndex = 1
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(143, 377)
+        Me.TextBox4.BackColor = System.Drawing.Color.PapayaWhip
+        Me.TextBox4.Location = New System.Drawing.Point(143, 312)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(173, 22)
         Me.TextBox4.TabIndex = 1
@@ -77,11 +83,11 @@ Partial Class Analisis_y_deseño
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(154, 60)
+        Me.Label1.Location = New System.Drawing.Point(75, 58)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(174, 44)
+        Me.Label1.Size = New System.Drawing.Size(337, 44)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "CLIENTES"
+        Me.Label1.Text = "EMPLEADOS CERRO"
         '
         'Label2
         '
@@ -107,24 +113,25 @@ Partial Class Analisis_y_deseño
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(45, 303)
+        Me.Label4.Location = New System.Drawing.Point(45, 361)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 23)
+        Me.Label4.Size = New System.Drawing.Size(77, 23)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "RTN:"
+        Me.Label4.Text = "telefono:"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(45, 375)
+        Me.Label5.Location = New System.Drawing.Point(45, 310)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(86, 23)
+        Me.Label5.Size = New System.Drawing.Size(54, 23)
         Me.Label5.TabIndex = 3
-        Me.Label5.Text = "dirección:"
+        Me.Label5.Text = "Edad:"
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.PapayaWhip
         Me.TextBox5.Location = New System.Drawing.Point(143, 253)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(173, 22)
@@ -136,47 +143,70 @@ Partial Class Analisis_y_deseño
         Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(45, 251)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(77, 23)
+        Me.Label6.Size = New System.Drawing.Size(86, 23)
         Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Apellido:"
+        Me.Label6.Text = "Identidad:"
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.PapayaWhip
         Me.Button1.Location = New System.Drawing.Point(74, 459)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(114, 43)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Guardar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.PapayaWhip
         Me.Button2.Location = New System.Drawing.Point(255, 459)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(119, 43)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Cancelar"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'TextBox6
+        '
+        Me.TextBox6.BackColor = System.Drawing.Color.PapayaWhip
+        Me.TextBox6.Location = New System.Drawing.Point(143, 406)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(173, 22)
+        Me.TextBox6.TabIndex = 1
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(45, 404)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(68, 23)
+        Me.Label7.TabIndex = 3
+        Me.Label7.Text = "Sueldo:"
         '
         'Analisis_y_deseño
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
+        Me.BackColor = System.Drawing.Color.MediumSeaGreen
         Me.ClientSize = New System.Drawing.Size(462, 545)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Analisis_y_deseño"
         Me.Text = "Nuevo Cliente"
         Me.ResumeLayout(False)
@@ -198,4 +228,6 @@ Partial Class Analisis_y_deseño
     Friend WithEvents Label6 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label7 As Label
 End Class

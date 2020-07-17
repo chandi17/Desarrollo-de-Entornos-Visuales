@@ -35,3 +35,9 @@ C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFi
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Analisis_y_deseño.resources
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Cerro.resources
 C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Sar.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.AnalisisDiseño2.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Ejercicio3.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Ejercicio4.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.Form1.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.OpcionesCerrp.resources
+C:\Users\Elmer Chandia\Documents\GitHub\Desarrollo-de-Entornos-Visuales\TareasFinal\TareasFinal\obj\Debug\TareasFinal.PLanesManejo.resources
